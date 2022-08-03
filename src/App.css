@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+header {
+  height: 20px;
+  padding: 1rem;
   color: white;
+  background: #0a67b2;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.GroupListItem .groupProBtn {
+  text-align: center;
+  margin: 10px;
+  padding: 1rem 1rem;
+  background-color: #0a67b2;
+  color :aliceblue;
+  border-radius : 10px;
+  border : 0;
+  font-weight: bold;
+  width: 20%;
+}
+.groupProBtn {
+  text-align: center;
+  margin: 10px;
+  padding: 1rem 1rem;
+  background-color: #0a67b2;
+  color :aliceblue;
+  border-radius : 10px;
+  border : 0;
+  font-weight: bold;
+  width: 20%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.GroupListItem .groupText {
+  margin: 10px;
+  padding: 0.5rem;
+  background-color: #0a67b2;
+  color :aliceblue;
+  border-radius : 10px;
+  border : 0;
+  font-weight: bold;
+  width: 40%;
+}
+.groupText {
+  margin: 10px;
+  padding: 0.5rem;
+  background-color: #0a67b2;
+  color :aliceblue;
+  border-radius : 10px;
+  border : 0;
+  font-weight: bold;
+  width: 500px;
+}
+
+.groupText input {
+  padding: 0.5rem;
+  background-color:aliceblue;
+  color :black;
+  border-radius : 10px;
+  border : 0;
+  font-weight: bold;
+  width: 75%;
+}
+
+.groupText button {
+  margin-left: 7%;
+  background-color:#0a67b2;
+  color :white;
+  border : 0;
+  font-weight: bold;
+}
+
+.Item {
+  border: 1px solid #0a67b2;
+  padding: 10px;
+  width: 500px;
+  float: left;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.Item .context {
+  background: #0a67b2;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 10px;
 }
